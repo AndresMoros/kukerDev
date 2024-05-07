@@ -1,0 +1,266 @@
+/* --------------------- MAIN STYLES --------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: #000;
+}
+.green-text {
+    color: #419b5f;
+}
+.light-green-text {
+    color: #55fc66;
+}
+.red-text {
+    color: #FF000C;
+}
+.dakota-color {
+    color: #a40d08;
+}
+.lg-green-bg {
+    background: #55fc66;
+}
+.green-bg {
+    background: #419b5f;
+}
+body {
+    max-width: 1200px;
+    min-width: 800px;
+    color: #fff;
+    font-family: monospace;
+}
+.center {
+    margin: 0 auto;
+}
+header {
+    height: 100px;
+}
+.logo {
+    width: 30%;
+    min-width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+}
+.nav-bar {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+}
+.nav-bar a {
+    font-size: 1.3em;
+    display: inline-block;
+    color: #419b5f;
+    text-decoration: none;
+    transition: .3s ease-out;
+    padding: 4px 15px;
+}
+.nav-bar a:hover {
+    color: #FF000C;
+    background: #7c0f0b20;
+    /* color: #55fc66; */
+    /* background: #7c0f0b20; */ 
+}
+.img-box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer {
+    border-top: #fff 1px solid;
+    margin-top: 20px;
+    padding-top: 20px;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box {
+    width: 33%;
+    padding: 10px;
+}
+.last-blogs ul {
+    margin-top: 10px;
+    list-style: none;
+}
+.moments h4 {
+    margin-bottom: 10px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+.picture {
+    width: 30%;
+    height: 80px;
+}
+.photo-1 {
+    background-image: url(../img/photo-1.jpeg);
+}
+.photo-2 {
+    background-image: url(../img/photo-2.jpeg);
+}
+.photo-3 {
+    background-image: url(../img/photo-3.jpeg);
+}
+.photo-4 {
+    background-image: url(../img/photo-4.jpeg);
+}
+.photo-5 {
+    background-image: url(../img/photo-5.jpeg);
+}
+.photo-6 {
+    background-image: url(../img/photo-6.jpeg);
+}
+.main-list {
+    margin-top: 10px;
+    list-style: none;
+}
+.main-list li {
+    margin-top: 10px;
+}
+.li-list {
+    margin-left: 15px;
+    font-size: .7rem;
+}
+.li-list li {
+    margin-top: 2px;
+}
+.fa-check {
+    color: #55fc66;
+}
+.fa-spinner {
+    color: #cff012;
+}
+/* -------- STYLES FOR CONTENT -------- */
+.hero {
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+.hero h1 {
+    font-size: 3rem;
+    background: #000000c5;
+    padding-left: 20px;
+}
+.index-text h2:nth-child(1),
+.entry-content h2:nth-child(1) {
+    margin: 0 0 10px;
+}
+.index-text h2,
+.entry-content h2{
+    margin: 20px 0 10px;
+}
+.index-text p,
+.entry-content p {
+    margin-top: 10px;
+}
+.container {
+    min-height: 400px;
+    margin-bottom: 15px;
+}
+.index-text, 
+.entry-content {
+    width: 70%;
+    float: left;
+    padding: 0 10px;
+    font-size: 1.1rem;
+}
+
+/* -------- STYLES FOR ASIDE -------- */
+
+.about-info {
+    width: 25%;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    background-color: #88fa9316;
+    padding: 20px 10px;
+    border-radius: 10px 0;
+    transition: .3s ease-out;
+}
+.about-info:hover {
+    background-color: #fa888816;
+    border-radius: 0px 10px;
+}
+.about-info h3 {
+    font-size: 1.3rem;
+}
+.about-info img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+.about-info p {
+    width: 90%;
+}
+.social-media {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #00000072;
+}
+
+/* --------------------- STYLES FOR INDEX --------------------- */
+
+.index-hero {
+    background-image: url(../img/Recurso1.png);
+}
+
+/* --------------------- STYLES FOR ENTRY'S --------------------- */
+.entry-content h2 {
+    font-size: 2rem;
+    color: #55fc66;
+}
+.entry-content p a i,
+.entry-ul {
+    font-size: .8rem;
+}
+.entry-ul li {
+    margin: 10px 0 0 20px;
+}
+.single-img-box {
+    width: 70%;
+    height: 250px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: .7rem;
+}
+.single-img-box img {
+    object-fit: cover;
+    max-height: 100%;
+}
+.single-img-box p {
+    font-style: italic;
+    margin: 5px 0;
+}
+.entry-content p > i {
+    color: #a40d08;
+}
+.date {
+    font-size: .7rem;
+    color: #55fc66;
+    text-align: right;
+    padding: 30px 0;
+}
+/* -------- STYLES FOR "COMO YO EMPECÉ Y COMO PUEDES HACERLO TU TAMBIÉN" -------- */
+
+.blog1-hero {
+    background-image: url(../img/blog1-hero.jpg);
+}
