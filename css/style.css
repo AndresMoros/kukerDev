@@ -93,6 +93,9 @@ footer {
     margin-top: 10px;
     list-style: none;
 }
+.last-blogs ul li {
+    margin-top: 10px;
+}
 .moments h4 {
     margin-bottom: 10px;
 }
@@ -263,4 +266,11 @@ footer {
 
 .blog1-hero {
     background-image: url(../img/blog1-hero.jpg);
+}
+/* -------- STYLES FOR "COMO YO EMPECÉ Y COMO PUEDES HACERLO TU TAMBIÉN" -------- */
+.blog2-hero {
+    background-image: url(../img/vergatario.jpg);
+}
+.vergatario-logo {
+    background-color: #fff;
 }
